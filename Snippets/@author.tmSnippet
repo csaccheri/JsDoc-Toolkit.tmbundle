@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@author &lt;${1:you@example.com}&gt; (${2:your name})</string>
+	<key>name</key>
+	<string>@author</string>
+	<key>scope</key>
+	<string>comment.block.documentation.js</string>
+	<key>tabTrigger</key>
+	<string>auth</string>
+	<key>uuid</key>
+	<string>BDECC987-E025-4087-B6B7-84EC306ACAEB</string>
+</dict>
+</plist>

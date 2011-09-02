@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@param {${1:paramType}} ${2:paramName} ${3:paramDescription}</string>
+	<key>name</key>
+	<string>@param</string>
+	<key>scope</key>
+	<string>comment.block.documentation.js</string>
+	<key>tabTrigger</key>
+	<string>par</string>
+	<key>uuid</key>
+	<string>3207C247-004A-48C1-8DB4-DFD2BC1907AD</string>
+</dict>
+</plist>

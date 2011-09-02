@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@borrows ${1:otherMemberName} as ${2:thisMemberName}</string>
+	<key>name</key>
+	<string>@borrows</string>
+	<key>scope</key>
+	<string>comment.block.documentation.js</string>
+	<key>tabTrigger</key>
+	<string>bor</string>
+	<key>uuid</key>
+	<string>83E93FF7-655B-464A-852E-5983AC45CC02</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo '&lt;meta http-equiv="refresh" content="0; http://code.google.com/p/jsdoc-toolkit/wiki/TagReference"&gt;'</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^@d</string>
+	<key>name</key>
+	<string>View Tag Reference</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.js -entity.name.tag.script.html</string>
+	<key>uuid</key>
+	<string>52266785-1A07-4982-B3D0-D2E0FC6E6C09</string>
+</dict>
+</plist>
