@@ -1,16 +1,15 @@
 # Overview
 
-This bundle is designed to help you write JavaScript documentation using [JsDoc Toolkit][jsdoc]. It contains commands for running on one or more JavaScript files in TextMate as well as a collection of snippets to help you document your JavaScript. The bundle currently uses JsDoc Toolkit 2.4.0.
+This bundle is designed to help you write JavaScript documentation using [JsDoc Toolkit][jsdoc]. It contains commands for running JsDoc Toolkit on one or more JavaScript files in TextMate as well as snippets for each of the tags that JsDoc Toolkit supports. The bundle currently uses JsDoc Toolkit 2.4.0.
 
 JsDoc Toolkit is an application, written in JavaScript, for automatically generating template-formatted, multi-page HTML (or XML, JSON, or any other text-based) documentation from commented JavaScript source code.
 
 ## Installing from GitHub
 
-1. Click the "Download Source" button
-2. Unzip the download
-3. Rename the folder to JsDoc Toolkit.tmbundle
-4. Double-click the bundle
-5. TextMate installs the bundle and you can start documenting your JS!
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    git clone git://github.com/csaccheri/JSDoc-Toolkit.tmbundle.git "JSDoc Toolkit.tmbundle"
+    osascript -e 'tell app "TextMate" to reload bundles'
 
 ## Commands
 
@@ -25,7 +24,7 @@ Opens the [JsDoc Toolkit tag reference][jsdot] in TextMate's Web Preview window.
 
 ## Snippets
 
-This bundle includes a number of snippets to help you write JsDoc Toolkit-friendly comments.  The `docblock` snippet will create a documentation comment block (starting with `/**`), while the other snippets are specific to the various tags JsDoc Toolkit understands.
+This bundle includes a number of snippets to help you write JsDoc Toolkit-friendly comments.  The `docblock` snippet will create a documentation comment block (starting with `/**`), while the other snippets are specific to the various tags JsDoc Toolkit supports.
 
 Read the [JsDoc Toolkit tag reference][jsdot] for more information on each tag.
 
