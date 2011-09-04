@@ -5,9 +5,22 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>eval files="$TM_SELECTED_FILES"
-java -jar "$TM_BUNDLE_SUPPORT/bin/jsdoc-toolkit/jsrun.jar" "$TM_BUNDLE_SUPPORT/bin/jsdoc-toolkit/app/run.js" -c="$TM_BUNDLE_SUPPORT/bin/jsdoc.textmate.conf" $files
-echo '&lt;meta http-equiv="refresh" content="0; tm-file:///tmp/jsdoc-toolkit/index.html"&gt;'</string>
+	<string># which files should we document?
+files=""
+eval arr=("$TM_SELECTED_FILES")
+for (( i = 0; i &lt; ${#arr[@]}; i++ )); do
+  files="$files ${arr[$i]}"
+done
+# if no selected files, use current file
+if [[ -z $files ]]; then
+  files="$TM_FILEPATH"
+fi
+
+# generate the docs
+java -jar "$TM_BUNDLE_SUPPORT/bin/jsdoc-toolkit/jsrun.jar" "$TM_BUNDLE_SUPPORT/bin/jsdoc-toolkit/app/run.js" -c="$TM_BUNDLE_SUPPORT/bin/jsdoc.textmate.conf" -D="$TM_BUNDLE_SUPPORT/bin/jsdoc-toolkit/" $files
+
+# view the docs
+echo "&lt;meta http-equiv='Refresh' content='0; tm-file:///$TM_BUNDLE_SUPPORT/bin/jsdoc-toolkit/out/jsdoc/index.html'&gt;"</string>
 	<key>fallbackInput</key>
 	<string>scope</string>
 	<key>input</key>
