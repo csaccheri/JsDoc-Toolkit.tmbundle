@@ -8,7 +8,7 @@ JsDoc Toolkit is an application, written in JavaScript, for automatically genera
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/csaccheri/JSDoc-Toolkit.tmbundle.git "JSDoc Toolkit.tmbundle"
+    git clone git://github.com/csaccheri/JsDoc-Toolkit.tmbundle.git "JsDoc Toolkit.tmbundle"
     osascript -e 'tell app "TextMate" to reload bundles'
 
 ## Commands
