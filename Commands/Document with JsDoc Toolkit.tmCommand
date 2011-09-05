@@ -32,7 +32,7 @@ echo "&lt;meta http-equiv='Refresh' content='0; tm-file:///$TM_BUNDLE_SUPPORT/bi
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>source.js -entity.name.tag.script.html</string>
+	<string>source.js, -entity.name.tag.script.html</string>
 	<key>uuid</key>
 	<string>9C0C24BC-F178-4E8D-A1AA-1418A37B3C2F</string>
 </dict>

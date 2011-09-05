@@ -15,7 +15,7 @@
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>source.js -entity.name.tag.script.html</string>
+	<string>source.js, -entity.name.tag.script.html</string>
 	<key>uuid</key>
 	<string>52266785-1A07-4982-B3D0-D2E0FC6E6C09</string>
 </dict>

@@ -4,7 +4,7 @@ This bundle is designed to help you write JavaScript documentation using [JsDoc 
 
 JsDoc Toolkit is an application, written in JavaScript, for automatically generating template-formatted, multi-page HTML (or XML, JSON, or any other text-based) documentation from commented JavaScript source code.
 
-## Installing from GitHub
+## Installation
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles

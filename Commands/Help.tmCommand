@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
 html_header "JsDoc Tookit Bundle Help" "Javascript"
-"$TM_SUPPORT_PATH/lib/markdown_to_help.rb" "$TM_BUNDLE_PATH/README.markdown"
+"$TM_SUPPORT_PATH/lib/markdown_to_help.rb" "$TM_BUNDLE_PATH/README.md"
 html_footer</string>
 	<key>input</key>
 	<string>none</string>
@@ -16,7 +16,7 @@ html_footer</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
-	<string>source.js -entity.name.tag.script.html</string>
+	<string>source.js, -entity.name.tag.script.html</string>
 	<key>uuid</key>
 	<string>1350AFC5-BBEA-488C-8855-0CB541E1AF75</string>
 </dict>

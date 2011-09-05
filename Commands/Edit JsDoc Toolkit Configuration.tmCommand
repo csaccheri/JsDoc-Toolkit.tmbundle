@@ -15,7 +15,7 @@
 	<key>output</key>
 	<string>discard</string>
 	<key>scope</key>
-	<string>source.js -entity.name.tag.script.html</string>
+	<string>source.js, -entity.name.tag.script.html</string>
 	<key>uuid</key>
 	<string>EA460A60-C3F6-4B60-9AB9-FAF5F5452ED1</string>
 </dict>

@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>docblock</string>
 	<key>scope</key>
-	<string>source.js</string>
+	<string>source.js, -entity.name.tag.script.html</string>
 	<key>tabTrigger</key>
 	<string>doc</string>
 	<key>uuid</key>
