@@ -4,7 +4,7 @@ Documentation? Umm...
 
 Don't worry -- documenting your JavaScript can be fun and easy! (Well, maybe just easy.)
  
-This bundle provides tools for writing comments with and running [JsDoc Toolkit][jsdoc] -- an application for automatically generating documentation from commented JavaScript -- directly from TextMate.
+This bundle provides tools for running and writing comments with [JsDoc Toolkit][jsdoc] directly from TextMate. JsDoc Toolkit is a great application for automatically generating documentation from commented JavaScript source code.
 
 ## Installation
 
@@ -21,9 +21,9 @@ Or use [GetBundles][getb] (search for "JsDoc Toolkit").
 
 ### Snippets
 
-This bundle includes a number of snippets to help you write JsDoc Toolkit-friendly comments. First, use the `docblock` snippet (type `doc` then tab) to create a documentation comment block (starting with `/**`), then use the other snippets to generate the various tags JsDoc Toolkit supports.
+This bundle includes a number of snippets to help you write JsDoc Toolkit-friendly comments. Use the `docblock` snippet (type `doc` then tab) to create a documentation comment block (starting with `/**`), then use the other snippets to generate the various tags JsDoc Toolkit supports.
 
-Read the [JsDoc Toolkit tag reference][jsdot] for more information on each tag.
+Read the [JsDoc Toolkit tag reference][jsdot] for a description of each tag and how it's used.
 
 ### Commands
 
@@ -31,7 +31,7 @@ Read the [JsDoc Toolkit tag reference][jsdot] for more information on each tag.
 Generates HTML documentation from commented JavaScript source code using JsDoc Toolkit 2.4.0 and displays it in TextMate's Web Preview window. You can generate documentation from a single file, multiple selected files, or an entire directory.
 
 * **Edit JsDoc Toolkit Configuration** (⌃⌘D)
-Opens the configuration file used by the bundle to run JsDoc Toolkit. You can edit this file to change configuration options, such as whether to include private methods, use a different output template, etc. See [JsDoc Toolkit command line options][jsdop] for more information on each option.
+Opens the configuration file used by the bundle to run JsDoc Toolkit. You can edit this file to change configuration options, such as whether to show private methods, use a different output template, etc. See [JsDoc Toolkit command line options][jsdop] for more information.
 
 * **View Tag Reference** (⌃⌘D)
 Opens the [JsDoc Toolkit tag reference][jsdot] in TextMate's Web Preview window.
