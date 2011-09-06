@@ -9,7 +9,7 @@
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^@d</string>
+	<string>^@j</string>
 	<key>name</key>
 	<string>Edit JsDoc Toolkit Configuration</string>
 	<key>output</key>

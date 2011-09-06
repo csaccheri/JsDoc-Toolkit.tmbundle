@@ -9,7 +9,7 @@
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^@d</string>
+	<string>^@j</string>
 	<key>name</key>
 	<string>View Tag Reference</string>
 	<key>output</key>

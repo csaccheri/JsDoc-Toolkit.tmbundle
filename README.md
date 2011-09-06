@@ -1,6 +1,6 @@
-JS Lint? Check.  
-Unit tests? Check.  
-Documentation? Umm...  
+JS Lint? _Check._  
+Unit tests? _Check._  
+Documentation? _Umm..._  
 
 Don't worry -- documenting your JavaScript can be fun and easy! (Well, maybe just easy.)
  
@@ -27,13 +27,15 @@ Read the [JsDoc Toolkit tag reference][jsdot] for a description of each tag and 
 
 ### Commands
 
-* **Document with JsDoc Toolkit** (⌃⌘D)
-Generates HTML documentation from commented JavaScript source code using JsDoc Toolkit 2.4.0 and displays it in TextMate's Web Preview window. You can generate documentation from a single file, multiple selected files, or an entire directory.
+* **Document with JsDoc Toolkit** (⌃⌘J)
+Generates HTML documentation from commented JavaScript source code using JsDoc Toolkit 2.4.0 and displays it in TextMate's Web Preview window. You can generate documentation from a single file, multiple selected files, or an entire directory.  
+You can find the generated documentation in  
+`~/Library/Application Support/TextMate/Bundles/JsDoc Toolkit.tmbundle/Support/bin/jsdoc-tookit/out`
 
-* **Edit JsDoc Toolkit Configuration** (⌃⌘D)
+* **Edit JsDoc Toolkit Configuration** (⌃⌘J)
 Opens the configuration file used by the bundle to run JsDoc Toolkit. You can edit this file to change configuration options, such as whether to show private methods, use a different output template, etc. See [JsDoc Toolkit command line options][jsdop] for more information.
 
-* **View Tag Reference** (⌃⌘D)
+* **View Tag Reference** (⌃⌘J)
 Opens the [JsDoc Toolkit tag reference][jsdot] in TextMate's Web Preview window.
 
 ## License

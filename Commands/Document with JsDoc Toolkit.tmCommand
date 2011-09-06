@@ -26,7 +26,7 @@ echo "&lt;meta http-equiv='Refresh' content='0; tm-file:///$TM_BUNDLE_SUPPORT/bi
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>^@d</string>
+	<string>^@j</string>
 	<key>name</key>
 	<string>Document with JsDoc Toolkit</string>
 	<key>output</key>
