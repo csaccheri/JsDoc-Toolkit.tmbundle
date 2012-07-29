@@ -17,6 +17,8 @@ Install from Github:
 
 Or use [GetBundles][getb] (search for "JsDoc Toolkit").
 
+**Important!** You must have Java installed to run JsDoc Toolkit.
+
 ## Usage
 
 ### Snippets
